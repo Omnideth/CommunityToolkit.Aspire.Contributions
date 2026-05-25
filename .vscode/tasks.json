@@ -34,6 +34,56 @@
       "problemMatcher": "$msCompile"
     },
     {
+      "label": "build Cpp integration",
+      "command": "dotnet",
+      "type": "process",
+      "args": [
+        "build",
+        "src/CommunityToolkit.Aspire.Hosting.Cpp/CommunityToolkit.Aspire.Hosting.Cpp.csproj",
+        "/property:GenerateFullPaths=true",
+        "/consoleloggerparameters:NoSummary;ForceNoAlign"
+      ],
+      "problemMatcher": "$msCompile"
+    },
+    {
+      "label": "build Cpp example",
+      "command": "dotnet",
+      "type": "process",
+      "args": [
+        "build",
+        "examples/cpp/CommunityToolkit.Aspire.Hosting.Cpp.AppHost/CommunityToolkit.Aspire.Hosting.Cpp.AppHost.csproj",
+        "/property:GenerateFullPaths=true",
+        "/consoleloggerparameters:NoSummary;ForceNoAlign"
+      ],
+      "problemMatcher": "$msCompile"
+    },
+    {
+      "label": "test Cpp unit tests",
+      "command": "dotnet",
+      "type": "process",
+      "args": [
+        "run",
+        "--project",
+        "tests/CommunityToolkit.Aspire.Hosting.Cpp.Tests/CommunityToolkit.Aspire.Hosting.Cpp.Tests.csproj",
+        "--filter-not-trait",
+        "Category=Integration"
+      ],
+      "problemMatcher": "$msCompile"
+    },
+    {
+      "label": "test Cpp integration test",
+      "command": "dotnet",
+      "type": "process",
+      "args": [
+        "run",
+        "--project",
+        "tests/CommunityToolkit.Aspire.Hosting.Cpp.Tests/CommunityToolkit.Aspire.Hosting.Cpp.Tests.csproj",
+        "--filter-trait",
+        "Category=Integration"
+      ],
+      "problemMatcher": "$msCompile"
+    },
+    {
       "label": "cleanup",
       "type": "shell",
       "command": "./eng/clean-bin-obj.sh",

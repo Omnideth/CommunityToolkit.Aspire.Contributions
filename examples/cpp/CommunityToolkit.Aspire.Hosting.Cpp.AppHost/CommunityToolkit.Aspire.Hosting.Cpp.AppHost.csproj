@@ -1,0 +1,15 @@
+<Project Sdk="Aspire.AppHost.Sdk/13.3.0">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <IsAspireHost>true</IsAspireHost>
+    <UserSecretsId>1fdb0ba7-8b68-4efd-8ed2-e66fc8967b74</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\src\CommunityToolkit.Aspire.Hosting.Cpp\CommunityToolkit.Aspire.Hosting.Cpp.csproj" IsAspireProjectResource="false" />
+  </ItemGroup>
+
+</Project>

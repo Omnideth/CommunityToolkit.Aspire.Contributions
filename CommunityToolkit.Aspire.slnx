@@ -14,6 +14,9 @@
   <Folder Name="/examples/bun/">
     <Project Path="examples/bun/CommunityToolkit.Aspire.Hosting.Bun.AppHost/CommunityToolkit.Aspire.Hosting.Bun.AppHost.csproj" />
   </Folder>
+  <Folder Name="/examples/cpp/">
+    <Project Path="examples/cpp/CommunityToolkit.Aspire.Hosting.Cpp.AppHost/CommunityToolkit.Aspire.Hosting.Cpp.AppHost.csproj" />
+  </Folder>
   <Folder Name="/examples/dapr/">
     <Project Path="examples/dapr/CommunityToolkit.Aspire.Hosting.Azure.Dapr.AppHost/CommunityToolkit.Aspire.Hosting.Azure.Dapr.AppHost.csproj" />
     <Project Path="examples/dapr/CommunityToolkit.Aspire.Hosting.Dapr.AppHost/CommunityToolkit.Aspire.Hosting.Dapr.AppHost.csproj" />
@@ -205,6 +208,7 @@
     <Project Path="src/CommunityToolkit.Aspire.Hosting.Azure.DataApiBuilder/CommunityToolkit.Aspire.Hosting.Azure.DataApiBuilder.csproj" />
     <Project Path="src/CommunityToolkit.Aspire.Hosting.Azure.Extensions/CommunityToolkit.Aspire.Hosting.Azure.Extensions.csproj" />
     <Project Path="src/CommunityToolkit.Aspire.Hosting.Bun/CommunityToolkit.Aspire.Hosting.Bun.csproj" />
+    <Project Path="src/CommunityToolkit.Aspire.Hosting.Cpp/CommunityToolkit.Aspire.Hosting.Cpp.csproj" />
     <Project Path="src/CommunityToolkit.Aspire.Hosting.DbGate/CommunityToolkit.Aspire.Hosting.DbGate.csproj" />
     <Project Path="src/CommunityToolkit.Aspire.Hosting.Deno/CommunityToolkit.Aspire.Hosting.Deno.csproj" />
     <Project Path="src/CommunityToolkit.Aspire.Hosting.Elasticsearch.Extensions/CommunityToolkit.Aspire.Hosting.Elasticsearch.Extensions.csproj" />
@@ -267,6 +271,7 @@
     <Project Path="tests/CommunityToolkit.Aspire.Hosting.Azure.DataApiBuilder.Tests/CommunityToolkit.Aspire.Hosting.Azure.DataApiBuilder.Tests.csproj" />
     <Project Path="tests/CommunityToolkit.Aspire.Hosting.Azure.Extensions.Tests/CommunityToolkit.Aspire.Hosting.Azure.Extensions.Tests.csproj" />
     <Project Path="tests/CommunityToolkit.Aspire.Hosting.Bun.Tests/CommunityToolkit.Aspire.Hosting.Bun.Tests.csproj" />
+    <Project Path="tests/CommunityToolkit.Aspire.Hosting.Cpp.Tests/CommunityToolkit.Aspire.Hosting.Cpp.Tests.csproj" />
     <Project Path="tests/CommunityToolkit.Aspire.Hosting.DbGate.Tests/CommunityToolkit.Aspire.Hosting.DbGate.Tests.csproj" />
     <Project Path="tests/CommunityToolkit.Aspire.Hosting.Deno.Tests/CommunityToolkit.Aspire.Hosting.Deno.Tests.csproj" />
     <Project Path="tests/CommunityToolkit.Aspire.Hosting.Elasticsearch.Extensions.Tests/CommunityToolkit.Aspire.Hosting.Elasticsearch.Extensions.Tests.csproj" />
